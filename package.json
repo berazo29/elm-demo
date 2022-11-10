@@ -1,0 +1,19 @@
+{
+  "name": "elm-demo",
+  "version": "1.0.0",
+  "description": "A simple demo for elm.",
+  "source": "index.js",
+  "repository": "git@github.com:berazo29/elm-demo.git",
+  "author": "berazo29 <37014465+berazo29@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-elm": "2.8.0",
+    "elm": "^0.19.1-5",
+    "parcel": "^2.8.0"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "clean": "rm -rf dist/*"
+  }
+}
