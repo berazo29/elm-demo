@@ -2,3 +2,21 @@
 elm-stuff
 # elm-repl generated files
 repl-temp-*
+# Parcel related files
+dist/
+.cache/
+.parcel-cache/
+
+# Coverage directory 
+coverage
+# VSCode related files
+.vscode/
+# yarn related files
+yarn-error.log
+yarn-debug.log*
+yarn-integrity
+# dotenv environment variables file
+.env
+# Dependency directories
+node_modules/
+jspm_packages/
